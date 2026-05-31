@@ -30,6 +30,7 @@ const ObjectDetection = () => {
       webcamRef.current !== null &&
       webcamRef.current.video?.readyState === 4
     ) {
+      
       canvasRef.current.width = webcamRef.current.video.videoWidth;
       canvasRef.current.height = webcamRef.current.video.videoHeight;
 
